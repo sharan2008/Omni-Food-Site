@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 html {
     background-color: #fff;
     color: #555;
@@ -34,9 +33,7 @@ h1 {
     font-weight: 300;
     text-transform: uppercase;
     word-spacing:2px;
-    letter-spacing: 1px;
-    
-    
+    letter-spacing: 1px;  
 }
 .hero-text-box {
     position: absolute;
