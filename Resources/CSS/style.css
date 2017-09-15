@@ -1,3 +1,6 @@
+/*-----------------------------------------*/
+/*BASIC SETUP*/
+/*-----------------------------------------*/
 * {
     margin: 0;
     padding: 0;
@@ -11,6 +14,9 @@ html {
     font-weight: 300;
     text-rendering: optimizeLegibility;
 }
+/*-----------------------------------------*/
+/*REUSABLE COMPONENTS*/
+/*-----------------------------------------*/
 
 .rows {
     max-width: 1140px;
@@ -18,14 +24,7 @@ html {
      /*we are setting top and bottom margin to 0 and right and left to of the margin to auto*/
 }
 
-header {
-    background-image: linear-gradient(rgba(0,0, 0,0.5),#000),url(img/hero.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    
-}
-
+    /*HEADING*/
 h1 {
     margin-top: 0;
     margin-bottom: 20px;
@@ -36,14 +35,8 @@ h1 {
     word-spacing:2px;
     letter-spacing: 1px;  
 }
-.hero-text-box {
-    position: absolute;
-    width: 1140px;
-    top:50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 
+    /*BUTTONS*/
 .btn:link,
 .btn:visited {
     display: inline-block;
@@ -86,5 +79,54 @@ h1 {
     color:#fff;
     
 }
+/*-----------------------------------------*/
+/*HEADER*/
+/*-----------------------------------------*/
 
+header {
+    background-image: linear-gradient(rgba(0,0, 0,0.5),#000),url(img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
 
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+    
+}
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: px;
+}
+.main-nav li{
+    display: inline-block;
+    margin: 40px;
+}
+.main-nav li a:link,
+.main-nav li a:visited {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid #e67e22 ;
+    transition:border-bottom 0.2s;
+}
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+border-bottom: 2px solid #e67e22;
+}
