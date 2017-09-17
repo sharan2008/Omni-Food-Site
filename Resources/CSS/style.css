@@ -27,6 +27,9 @@ html {
 section{
     padding: 80px , 0 ;
 }
+.box {
+    padding: 1%;
+}
     /*HEADING*/
 h1{
      margin-top: 0;
@@ -45,6 +48,13 @@ h2{
     text-align: center;
     margin-bottom: 30px;
     }
+h3 {
+    font-size: 110%;
+   margin-bottom: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    
+}
 h2:after {
     display: block;
     height: 2px;
@@ -61,10 +71,11 @@ h2:after {
 }
    /*paragraph*/
 .long-copy{
-  /*  line-height: 145px;*/
+ /*   line-height: 145px;*/
     margin-bottom: 12px;
     width: 70%;
     margin-left: 15%;
+text-align: center;
     
 
 }
@@ -167,4 +178,11 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
 border-bottom: 2px solid #e67e22;
+}
+
+#texas{
+    
+    margin-left: 40px;
+    margin-right: 40px;
+
 }
