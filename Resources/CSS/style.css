@@ -238,70 +238,50 @@ border-bottom: 2px solid #e67e22;
            /*How It Works*/
 /*-----------------------------------------*/
 
-
-.steps-box {
-    margin-top: 30px;
-    
-}
-
-.steps-box : child {
+.steps-box:first-child {
     text-align: right;
-    padding: 3%;
-    
-}
-steps-box : last-child {
-    padding-left : 3%;
+    padding-right: 3%;
+    margin-top: 30px;
 }
 
+.steps-box:last-child {
+    padding-left: 3%;
+  
+    
+}
 
 .app-screen {
-    
-    margin-left: 320px;
-    width: 300px;
-    height: 600px;
-    float: left;
-    padding-top: 25px;
-
-}
-
-.button-app {
-    width: 180px;
-    height: 60px;
+    width: 40%;
+    height: 50%;
 }
 
 .works-step {
     margin-bottom: 50px;
     
-    }
+}
+
 .works-step div {
     color: #e67e22;
-    border: 2px solid ;   
+    border: 2px solid #e67e22;
     display: inline-block;
     border-radius: 50%;
-    height: 50px;
-    width: 50px;
-    float: left;
-    /*text-align: center;
+    height: 55px;
+    width: 55px;
+    text-align: center;
     padding: 5px;
     float: left;
-    font-size: 100%;*/
+    font-size: 150%;
+    margin-right: 25px;
 }
 
-.img {
-    display: inline-block;
-}
-
-.hack{
-    
-    display: inline-block;
-
-}
-.step-heading {
+/*.heading {
     text-align: center;
-    font-size: 20px;
-    
+    display: block;
+}*/
+
+btn-app img {
+     height: 50px;
+    width: auto;
+    margin-right: 10px;
 }
-
-
-
 
