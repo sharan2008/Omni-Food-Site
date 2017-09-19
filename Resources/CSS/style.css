@@ -246,7 +246,7 @@ border-bottom: 2px solid #e67e22;
 
 .steps-box:last-child {
     padding-left: 3%;
-  
+    margin-top: 70%;
     
 }
 
@@ -280,8 +280,36 @@ border-bottom: 2px solid #e67e22;
 }*/
 
 btn-app img {
-     height: 50px;
-    width: auto;
-    margin-right: 10px;
+     height: 50px !important;
+    width: auto !important;
+    margin-right: 10px !important;
 }
+
+.section-steps {
+    background-color: #f4f5f2;
+}
+.cities {
+    height: 300px;
+    width:auto;
+}
+
+
+.col img{
+        height: 455px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
