@@ -83,6 +83,13 @@ text-align: center;
     
 }
 
+  /*Links*/
+
+
+
+
+
+
     /*BUTTONS*/
 .btn:link,
 .btn:visited {
@@ -330,8 +337,16 @@ border-bottom: 2px solid #e67e22;
 
 
 
+/*-----------------------------------------*/
+           /*/TESTIMONIALS/*/
+/*-----------------------------------------*/
 
-
+.section-testimonials {
+    background-image:linear-gradient(rgba(0,0,0, 0.8),rgba(0,0,0,0.8)),url(img/pizza_wallpaper_7cf74.jpg);
+    background-size: cover;
+    color: #fff;
+    
+}
 
 
 
