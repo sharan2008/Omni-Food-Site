@@ -279,15 +279,21 @@ border-bottom: 2px solid #e67e22;
     display: block;
 }*/
 
-btn-app img {
+/*.btn-app img {
      height: 50px !important;
     width: auto !important;
     margin-right: 10px !important;
-}
+}*/
 
 .section-steps {
     background-color: #f4f5f2;
 }
+/*-----------------------------------------*/
+           /*/CITIES/*/
+/*-----------------------------------------*/
+
+
+
 .cities {
     height: 300px;
     width:auto;
@@ -295,14 +301,32 @@ btn-app img {
 
 
 .col img{
-        height: 455px;
+        height: 193px;
+    
+    padding-left: 35px;
 
+        
+}
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
 }
 
 
+/*
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}*/
 
-
-
+.city-feature {
+    margin-bottom: 5px;
+}
+.city-details{
+    text-align: center
+}
 
 
 
