@@ -352,6 +352,15 @@ blockquote {
     padding: 2%;
     font-style: italic;
     line-height: 145%;
+    position: relative;
+}
+blockquote:before {
+    content: '\201c';
+    font-size: 400%;
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: -3px;;
 }
 
 cite {
@@ -360,7 +369,7 @@ cite {
     display: block;
 }
 cite img{
-    height: 5opx;
+    height: 40px;
     border-radius: 50%;
     margin-right: 10px;
     vertical-align: middle;
